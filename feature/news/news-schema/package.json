@@ -1,0 +1,12 @@
+{
+  "name": "news-schema",
+  "version": "0.0.1",
+  "description": "News feature",
+  "main": "index.ts",
+  "author": "Anwit Mondal",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "@mystiq/schema-types":"^0.0.8"
+  }
+}

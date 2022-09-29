@@ -1,0 +1,10 @@
+# See https://github.com/dart-lang/mono_repo for details
+sdk:
+  - stable
+
+stages:
+  - smoke_test:
+      - group:
+          - format
+          - analyze: --fatal-infos  .
+          - command: dart run dart_code_metrics:metrics analyze lib

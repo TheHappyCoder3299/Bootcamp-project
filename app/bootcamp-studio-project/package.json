@@ -1,0 +1,36 @@
+{
+  "name": "bootcamp-studio-project",
+  "private": true,
+  "version": "1.0.0",
+  "description": "",
+  "main": "package.json",
+  "author": "Sanity User <sanity.user@tatadigital.com>",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "sanity start",
+    "build": "sanity build"
+  },
+  "keywords": [
+    "sanity"
+  ],
+  "dependencies": {
+    "@mystiq/schema-core": "^0.0.9",
+    "@mystiq/schema-design-system": "^0.0.8",
+    "@mystiq/schema-types": "^0.0.8",
+    "@sanity/base": "^2.33.2",
+    "@sanity/color-input": "^2.33.2",
+    "@sanity/core": "^2.33.2",
+    "@sanity/default-layout": "^2.33.2",
+    "@sanity/default-login": "^2.33.2",
+    "@sanity/desk-tool": "^2.33.2",
+    "@sanity/ui": "^0.37.12",
+    "@sanity/vision": "^2.33.2",
+    "prop-types": "^15.7",
+    "react": "17",
+    "react-dom": "17",
+    "react-icons": "^4.4.0",
+    "styled-components": "^5.2.0",
+    "news-schema": "0.0.1"
+  },
+  "devDependencies": {}
+}

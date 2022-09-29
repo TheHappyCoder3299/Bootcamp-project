@@ -1,0 +1,11 @@
+{
+  "name": "bootcamp-project",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "feature/*/*",
+    "app/*"
+  ],
+  "dependencies": {},
+  "devDependencies": {}
+}
