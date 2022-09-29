@@ -15,7 +15,7 @@ void main() {
           '6n9P51pl9O0G13BVNlSjnZiDlKis29Ihm5Lf9OY2whKiK1psZYt0F9DO'
           'ROOQOEqhE2p7HkzKIaVJDAQzsR4EMYJV2IJfQM2rOt7tejQhv407B3lY035Fs7'
           'y5lSgoHeGOtZ0lZbYKuUM');
-  final storage = HiveStoragePlugin(keySpace: 'botcamp-project');
+  final storage = HiveStoragePlugin(keySpace: 'bootcamp-project');
   final secureStorage =
       SharedPreferencesStoragePlugin(keySpace: 'bootcamp-project');
   final dependency = GetItDependencyInjectionPlugin();
