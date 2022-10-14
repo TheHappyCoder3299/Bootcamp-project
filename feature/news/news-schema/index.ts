@@ -8,6 +8,7 @@ const news: FeatureSchemaDefinition = {
         value: "summary",
       },
     ],
+    
   },
 };
 

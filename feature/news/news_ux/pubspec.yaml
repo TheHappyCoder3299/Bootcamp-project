@@ -13,6 +13,9 @@ dependencies:
   mystiq_types:
     hosted: https://tatadigital.jfrog.io/artifactory/api/pub/tatadigital-pub-local/
     version: ^0.0.2+3
+  mystiq_uikit:
+    hosted: https://tatadigital.jfrog.io/artifactory/api/pub/tatadigital-pub-local/
+    version: 0.0.1+2
     
   news_api: 
     path: ../news_api
@@ -22,6 +25,8 @@ dev_dependencies:
     sdk: flutter
   flutter_lints: ^2.0.0
   dart_code_metrics: ^4.17.1
+  json_serializable: ^6.3.1
+  build_runner: ^2.2.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec
